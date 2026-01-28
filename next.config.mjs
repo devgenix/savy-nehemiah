@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/savy-nehemiah',
   images: {
     unoptimized: true,
   },
-  basePath: '/savy-nehemiah',
-  assetPrefix: '/savy-nehemiah/',
 };
 
 export default nextConfig;
