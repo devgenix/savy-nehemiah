@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/savy-nehemiah',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
